@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 // The base URL for your Express backend
-const API_BASE_URL = 'http://localhost:5000/api/todos';
+const API_BASE_URL = 'https://to-do-list-app-p79g.onrender.com/api/todos';
 
 function App() {
   const [todos, setTodos] = useState([]);
